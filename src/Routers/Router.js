@@ -29,6 +29,4 @@ router.put('/departamentos/:id', Validar_ID,     validarDepartampento, Departame
 
 router.delete('/departamentos/:id', Validar_ID, Departamentocontroller.excluir)
 
-
-
 module.exports = router
